@@ -33,4 +33,8 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+#sw
+public/sw.js
+public/worflow-*.js
 next-env.d.ts
