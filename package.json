@@ -10,7 +10,8 @@
     "test": "jest",
     "test:watch": "yarn test --watchAll",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s ./public"
+    "build-storybook": "build-storybook -s ./public",
+    "plop": "plop"
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.18.6",
@@ -53,6 +54,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.8",
     "jest-environment-jsdom": "^29.3.1",
+    "plop": "^3.1.1",
     "prettier": "2.8.1"
   }
 }
