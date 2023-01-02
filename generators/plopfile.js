@@ -17,7 +17,7 @@ module.exports = (plop) => {
       {
         type: 'add',
         path: '../src/components/{{pascalCase name}}/index.tsx',
-        templateFile: 'templates/Component.tsx.hbs'
+        templateFile: 'templates/index.tsx.hbs'
       },
       {
         type: 'add',
